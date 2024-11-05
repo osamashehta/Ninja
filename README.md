@@ -1,0 +1,1 @@
+This project was built using HTML5, CSS3, Bootstrap 5.3, and a touch of JavaScript for interactivity. It is fully responsive across all devices, ensuring a smooth and seamless user experience on any screen size.
