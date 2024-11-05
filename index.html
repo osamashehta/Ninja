@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ninja</title>
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style/all.min.css" />
+    <link
+      rel="shortcut icon"
+      href="./img/Navy Blue Minimalist Text Logo.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <header
+      class="vh-100 home d-flex justify-content-center align-items-center position-relative z-3"
+      id="home"
+    >
+      <!-- Navbar  -->
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary c-navbar fixed-top"
+        id="navbar-example"
+      >
+        <div class="container">
+          <div class="logo">
+            <a class="navbar-brand" href="#"
+              ><img
+                src="./img/Black And White Illustrated Eagle Logo.svg"
+                alt=""
+            /></a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#clients">Clients</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+
+              <li class="nav-item dropdown c-dropdown position-relative">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Dropdown-1</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown-2</a></li>
+
+                  <li class="nav-item dropdown c-submenu">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      SubDropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Dropdown-1</a></li>
+                      <li><a class="dropdown-item" href="#">Dropdown-2</a></li>
+                      <li><a class="dropdown-item" href="#">Dropdown-3</a></li>
+                      <li><a class="dropdown-item" href="#">Dropdown-4</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a class="dropdown-item" href="#">Dropdown-3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="home-caption text-center text-white">
+        <span class="fs-3">Welcome</span>
+        <h1 class="my-2">I'M <span id="element"></span></h1>
+        <p class="fs-5 w-75 m-auto text-white-50">
+          It is a long established fact that a reader will be of a page when
+          established fact looking at its layout.
+        </p>
+        <button
+          class="btn border-white rounded-pill mt-4 py-3 px-5 text-uppercase btn-outline-light"
+        >
+          Download CV
+        </button>
+
+        <a href="#about" class="scroll"></a>
+      </div>
+
+      <a
+        href="#"
+        class="position-fixed start-0 top-50 translate-middle-y bg-black rounded-end-3 z-3"
+        ><i class="fa-solid fa-gear fa-spin text-white px-3 py-2"></i
+      ></a>
+    </header>
+
+    <main>
+      <!-- about  -->
+      <section id="about" class="my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 my-5">
+              <div class="img">
+                <img
+                  src="./img/about.jpg"
+                  alt="person"
+                  class="w-100 img-thumbnail"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 my-5">
+              <h2><span class="fw-bold">About</span> Me</h2>
+              <h4>
+                Hello! <span class="main-color fw-bold">I'M Osama Shehta.</span>
+              </h4>
+              <p class="lead">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
+              <p class="lead">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
+
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar w-85 d-flex justify-content-between align-items-center px-3"
+                >
+                  <span class="fs-6">HTML</span> <span class="fs-6">85%</span>
+                </div>
+              </div>
+
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar w-75 d-flex justify-content-between align-items-center px-3"
+                >
+                  <span class="fs-6">CSS</span> <span class="fs-6">75%</span>
+                </div>
+              </div>
+
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar w-50 d-flex justify-content-between align-items-center px-3"
+                >
+                  <span class="fs-6">PHP</span> <span class="fs-6">50%</span>
+                </div>
+              </div>
+
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div
+                  class="progress-bar w-90 d-flex justify-content-between align-items-center px-3"
+                >
+                  <span class="fs-6">Java Script</span>
+                  <span class="fs-6">90%</span>
+                </div>
+              </div>
+
+              <ul class="list-unstyled icon d-flex">
+                <li>
+                  <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of about  -->
+
+      <!-- services  -->
+      <section id="services" class="overflow-auto bg-color">
+        <div class="heading text-center my-5">
+          <h2>Our <span class="fw-bold">Services</span></h2>
+          <p class="w-50 m-auto">
+            It is a long established fact that a reader will be of a page when
+            established fact looking at its layout.
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="row gy-5 my-5 px-5 p-lg-0">
+            <div class="col-md-6 col-lg-4">
+              <div class="inner shadow-lg rounded-3 text-center p-5">
+                <span class="icon"
+                  ><i class="fa-solid fa-chart-simple fa-2x m-auto"></i
+                ></span>
+                <h3>Graphic Design</h3>
+                <p>
+                  There are many variations of passages of but the majority have
+                  suffered alteration in some form.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="inner shadow-lg rounded-3 text-center p-5">
+                <span class="icon"
+                  ><i class="fa-solid fa-mug-hot fa-2x m-auto"></i
+                ></span>
+                <h3>Unlimited Color</h3>
+                <p>
+                  There are many variations of passages of but the majority have
+                  suffered alteration in some form.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="inner shadow-lg rounded-3 text-center p-5">
+                <span class="icon"
+                  ><i class="fa-solid fa-cloud-arrow-up m-auto fa-2x"></i
+                ></span>
+                <h3>Media Marketing</h3>
+                <p>
+                  There are many variations of passages of but the majority have
+                  suffered alteration in some form.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="inner shadow-lg rounded-3 text-center p-5">
+                <span class="icon"
+                  ><i class="fa-regular fa-copy m-auto fa-2x"></i
+                ></span>
+                <h3>Unlimited Wifi</h3>
+                <p>
+                  There are many variations of passages of but the majority have
+                  suffered alteration in some form.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="inner shadow-lg rounded-3 text-center p-5">
+                <span class="icon"
+                  ><i class="fa-solid fa-paintbrush m-auto fa-2x"></i
+                ></span>
+                <h3>Responsive Design</h3>
+                <p>
+                  There are many variations of passages of but the majority have
+                  suffered alteration in some form.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="inner shadow-lg rounded-3 text-center p-5">
+                <span class="icon"
+                  ><i class="fa-solid fa-file-pen m-auto fa-2x"></i
+                ></span>
+                <h3>Easy to customize</h3>
+                <p>
+                  There are many variations of passages of but the majority have
+                  suffered alteration in some form.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of services  -->
+
+      <!-- clients  -->
+      <section id="clients" class="overflow-auto bg-color">
+        <div class="heading text-center my-5">
+          <h2>Our <span class="fw-bold">Clients</span></h2>
+          <p class="w-50 m-auto">
+            It is a long established fact that a reader will be of a page when
+            established fact looking at its layout.
+          </p>
+        </div>
+        <div class="container">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div
+                class="carousel-item active text-center"
+                data-bs-interval="3000"
+              >
+                <i class="fa-solid fa-quote-left fa-3x main-color"></i>
+                <img
+                  src="./img/testi-1.jpg"
+                  class="d-block rounded-circle img-thumbnail m-auto"
+                  alt="clients"
+                />
+                <p class="w-50 m-auto">
+                  " The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here."
+                </p>
+                <span
+                  >- Ebony verty, <span class="fw-bolder">Envato</span></span
+                >
+              </div>
+              <div class="carousel-item text-center" data-bs-interval="3000">
+                <i class="fa-solid fa-quote-left fa-3x main-color"></i>
+                <img
+                  src="./img/testi-2.jpg"
+                  class="d-block rounded-circle img-thumbnail m-auto"
+                  alt="clients"
+                />
+                <p class="w-50 m-auto">
+                  " The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here."
+                </p>
+                <span
+                  >- Ebony verty, <span class="fw-bolder">Envato</span></span
+                >
+              </div>
+              <div class="carousel-item text-center" data-bs-interval="3000">
+                <i class="fa-solid fa-quote-left fa-3x main-color"></i>
+                <img
+                  src="./img/testi-3.jpg"
+                  class="d-block rounded-circle img-thumbnail m-auto"
+                  alt="clients"
+                />
+                <p class="w-50 m-auto">
+                  " The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here."
+                </p>
+                <span
+                  >- Ebony verty, <span class="fw-bolder">Envato</span></span
+                >
+              </div>
+            </div>
+            <div class="carousel-indicators position-static">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of clients  -->
+
+      <!-- portfolio  -->
+      <section id="portfolio" class="overflow-auto">
+        <div class="heading text-center my-5">
+          <h2>Our <span class="fw-bold">Work</span></h2>
+          <p class="w-50 m-auto">
+            It is a long established fact that a reader will be of a page when
+            established fact looking at its layout.
+          </p>
+        </div>
+
+        <div class="container">
+          <!----------------------------modal ----------------------->
+          <!-- Modal pic1-->
+          <div
+            class="modal fade"
+            id="pic1"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img
+                    src="./img/1.jpg"
+                    alt="portfolio"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal pic2-->
+          <div
+            class="modal fade"
+            id="pic2"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img
+                    src="./img/2.jpg"
+                    alt="portfolio"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal pic3-->
+          <div
+            class="modal fade"
+            id="pic3"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img
+                    src="./img/3.jpg"
+                    alt="portfolio"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal pic4-->
+          <div
+            class="modal fade"
+            id="pic4"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img
+                    src="./img/4.jpg"
+                    alt="portfolio"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal pic5-->
+          <div
+            class="modal fade"
+            id="pic5"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img
+                    src="./img/5.jpg"
+                    alt="portfolio"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal pic6-->
+          <div
+            class="modal fade"
+            id="pic6"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img
+                    src="./img/6.jpg"
+                    alt="portfolio"
+                    class="w-100 d-block"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--------------------- nav and taps ----------------------------->
+
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-all"
+                type="button"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+              >
+                All
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-seo"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                SEO
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-web"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                Web Design
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-work"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                Work
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-wordpress"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                wordpress
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-all"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+              tabindex="0"
+            >
+              <div class="row gy-4 my-5">
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic1"
+                  >
+                    <img
+                      src="./img/1.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic2"
+                  >
+                    <img
+                      src="./img/2.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic3"
+                  >
+                    <img
+                      src="./img/3.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic4"
+                  >
+                    <img
+                      src="./img/4.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic5"
+                  >
+                    <img
+                      src="./img/5.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic6"
+                  >
+                    <img
+                      src="./img/6.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-seo"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+              tabindex="0"
+            >
+              <div class="row gy-4 my-5">
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic1"
+                  >
+                    <img
+                      src="./img/1.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic2"
+                  >
+                    <img
+                      src="./img/2.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic3"
+                  >
+                    <img
+                      src="./img/3.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic4"
+                  >
+                    <img
+                      src="./img/4.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-web"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+              tabindex="0"
+            >
+              <div class="row gy-4 my-5">
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic1"
+                  >
+                    <img
+                      src="./img/1.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic2"
+                  >
+                    <img
+                      src="./img/2.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic5"
+                  >
+                    <img
+                      src="./img/5.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic6"
+                  >
+                    <img
+                      src="./img/6.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-work"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+              tabindex="0"
+            >
+              <div class="row gy-4 my-5">
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic2"
+                  >
+                    <img
+                      src="./img/2.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic3"
+                  >
+                    <img
+                      src="./img/3.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic4"
+                  >
+                    <img
+                      src="./img/4.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic5"
+                  >
+                    <img
+                      src="./img/5.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic6"
+                  >
+                    <img
+                      src="./img/6.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-wordpress"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+              tabindex="0"
+            >
+              <div class="row gy-4 my-5">
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic1"
+                  >
+                    <img
+                      src="./img/1.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic3"
+                  >
+                    <img
+                      src="./img/3.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic4"
+                  >
+                    <img
+                      src="./img/4.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div
+                    class="port-img position-relative rounded-3 overflow-hidden"
+                    data-bs-toggle="modal"
+                    data-bs-target="#pic5"
+                  >
+                    <img
+                      src="./img/5.jpg"
+                      alt="portfolio"
+                      class="w-100 d-block"
+                    />
+                    <div class="port-layer rounded-3">
+                      <div class="layer-caption">
+                        <span class="text-white-50">category</span>
+                        <h3 class="text-white">project title</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of portfolio  -->
+
+      <!-- blog  -->
+      <section id="blog" class="overflow-auto bg-color my-5">
+        <div class="heading text-center my-5">
+          <h2>Our <span class="fw-bold">Blog</span></h2>
+          <p class="w-50 m-auto">
+            It is a long established fact that a reader will be of a page when
+            established fact looking at its layout.
+          </p>
+        </div>
+
+        <div class="container my-5">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="blog-card p-2 bg-white overflow-hidden">
+                <div class="img position-relative">
+                  <img src="./img/blog-1.jpg" alt="blog" class="w-100" />
+                  <div class="layer">web design</div>
+                </div>
+                <div class="blog-caption my-3">
+                  <h3 class="mb-3">There are many variations</h3>
+                  <span
+                    >11 March 2018
+                    <span class="main-color">By Osama</span></span
+                  >
+                  <p class="text-muted my-3">
+                    Sit sagittis vulputate laoreet sodales tortor nulla lobortis
+                    bibendum netus primis fames. Lobortis ultricies.
+                  </p>
+                  <a href="#" class="main-color">Read More...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="blog-card p-2 bg-white overflow-hidden">
+                <div class="img position-relative">
+                  <img src="./img/blog-2.jpg" alt="blog" class="w-100" />
+                  <div class="layer">Responsive Design</div>
+                </div>
+                <div class="blog-caption my-3">
+                  <h3 class="mb-3">There are many variations</h3>
+                  <span
+                    >11 March 2018
+                    <span class="main-color">By Osama</span></span
+                  >
+                  <p class="text-muted my-3">
+                    Sit sagittis vulputate laoreet sodales tortor nulla lobortis
+                    bibendum netus primis fames. Lobortis ultricies.
+                  </p>
+                  <a href="#" class="main-color">Read More...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="blog-card p-2 bg-white overflow-hidden">
+                <div class="img position-relative">
+                  <img src="./img/blog-3.jpg" alt="blog" class="w-100" />
+                  <div class="layer">Media Marketing</div>
+                </div>
+                <div class="blog-caption my-3">
+                  <h3 class="mb-3">There are many variations</h3>
+                  <span
+                    >11 March 2018
+                    <span class="main-color">By Osama</span></span
+                  >
+                  <p class="text-muted my-3">
+                    Sit sagittis vulputate laoreet sodales tortor nulla lobortis
+                    bibendum netus primis fames. Lobortis ultricies.
+                  </p>
+                  <a href="#" class="main-color">Read More...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of blog  -->
+
+      <!-- contact  -->
+      <section id="contact" class="overflow-auto my-5">
+        <div class="heading text-center my-5">
+          <h2>Our <span class="fw-bold">Blog</span></h2>
+          <p class="w-50 m-auto">
+            It is a long established fact that a reader will be of a page when
+            established fact looking at its layout.
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="email"
+                />
+              </div>
+            </div>
+            <div>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="subject"
+                />
+              </div>
+            </div>
+            <div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="10"
+                ></textarea>
+              </div>
+            </div>
+            <div class="d-flex justify-content-end">
+              <button type="submit" class="btn btn-primary mb-3">
+                send message
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <a href="#home" class="btn-up"><i class="fa-solid fa-angle-up"></i></a>
+    </main>
+
+    <footer>
+      <div class="media mt-5">
+        <ul class="d-flex justify-content-center">
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/osama-shehta" target="_blank">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-pinterest-p"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="copy-right text-white-50 text-center mb-5">
+        <p>
+          2024 <i class="fa-regular fa-copyright"></i> Design by Osama Shehta.
+        </p>
+      </div>
+    </footer>
+
+    <script src="./js/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Designer", "Programmer"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true,
+      });
+    </script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
